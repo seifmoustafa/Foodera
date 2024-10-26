@@ -1,6 +1,7 @@
 import React, { Fragment } from "react";
 import Header from "./Header";
-i
+
+import "./Home.css"
 const Home = () => {
     return (
         <Fragment>
