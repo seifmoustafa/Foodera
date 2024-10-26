@@ -6,11 +6,11 @@ header {
     text-align: left;
     height: auto;
     overflow: hidden;
-
+    margin-top: 0px;
 }
 
 header .row {
-    margin: 50px 0px;
+    margin: 60px 0px;
 }
 
 header h2 {
