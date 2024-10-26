@@ -1,0 +1,9 @@
+header {
+    background: url('../../assets/header.png') center no-repeat;
+    background-size: cover;
+    width: 100%;
+    max-width: 100%;
+    text-align: left;
+    height: 400px;
+    overflow: hidden;
+}

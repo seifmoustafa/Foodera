@@ -1,8 +1,7 @@
-import logo from './logo.svg';
 import './App.css';
-import Home from './components/Home';
+import Home from './components/Home/Home.js';
 import { Fragment } from 'react';
-import Navs  from './components/Navs/Navs.js';
+import Navs from './components/Navs/Navs.js';
 
 function App() {
   return (
@@ -10,9 +9,9 @@ function App() {
       <Navs />
 
       <Home />
-      
+
     </Fragment>
-   
+
   );
 }
 
