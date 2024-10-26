@@ -1,10 +1,18 @@
 import logo from './logo.svg';
 import './App.css';
 import Home from './components/Home';
+import { Fragment } from 'react';
+import Navs  from './components/Navs/Navs.js';
 
 function App() {
   return (
-   <Home />
+    <Fragment>
+      <Navs />
+
+      <Home />
+      
+    </Fragment>
+   
   );
 }
 
