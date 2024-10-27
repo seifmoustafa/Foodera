@@ -103,3 +103,13 @@
     color: #333;
     margin-top: 10px;
 }
+/* css to the paralex section */
+
+.paralex{
+    background: url("../../assets/header.png");
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    padding: 30px 0px;
+    text-align: center;
+}
