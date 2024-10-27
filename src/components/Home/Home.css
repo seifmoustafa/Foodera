@@ -29,7 +29,7 @@
 
 /* css to pride */
 
-.pride {
+.pride , .ingredients{
     background-color: transparent;
     padding: 25px 0px;
     max-width: 100%;
@@ -39,12 +39,12 @@
 
 }
 
-.pride img {
+.pride img , .ingredients img{
     max-width: 100%;
     border-radius: 10px;
 }
 
-.pride h2 {
+.pride h2 , .ingredients h2{
     font-size: 35px;
     font-weight: bold;
     width: 80%;
@@ -54,7 +54,7 @@
     font-family: 'Tajawal';
 }
 
-.pride p {
+.pride p , .ingredients p{
     font-size: 16px;
     line-height: 28px;
     color: #333;
@@ -63,7 +63,7 @@
 
 }
 
-.pride button {
+.pride button, .ingredients button {
     background-color: #a82d49;
     border: 1px solid #a82d49;
     box-sizing: border-box;
@@ -75,7 +75,7 @@
 
 }
 
-.pride button a {
+.pride button a , .ingredients button a {
     display: block;
     color: #fff;
     font-family: 'Tajawal';
@@ -84,10 +84,32 @@
     font-weight: bold;
 }
 
-.pride button:hover a {
+.pride button:hover a,.ingredients button:hover a {
     color: #77132b;
 }
 
-.pride button:hover {
+.pride button:hover , .ingredients button:hover{
     background-color: #fff;
+}
+/* css to ingredients */
+
+
+.ingredients ul{
+    padding: 0px;
+}
+.ingredients ul li{
+    list-style: square;
+    font-family:'Tajawal' ;
+    color: #333;
+    margin-top: 10px;
+}
+/* css to the paralex section */
+
+.paralex{
+    background: url("../../assets/header.png");
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    padding: 30px 0px;
+    text-align: center;
 }
