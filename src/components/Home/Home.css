@@ -6,11 +6,9 @@
     text-align: center;
     overflow: hidden;
 }
-
 .numbers .row {
     margin: 10px 0px;
 }
-
 .numbers h2 {
     font-size: 50px;
     font-weight: bold;
@@ -18,7 +16,6 @@
     color: #fff;
     font-family: 'Tajawal';
 }
-
 .numbers h6 {
     text-transform: uppercase;
     color: #fff;
@@ -26,10 +23,8 @@
     font-weight: bold;
     letter-spacing: 1px;
 }
-
 /* css to pride */
-
-.pride {
+.pride , .ingredients{
     background-color: transparent;
     padding: 25px 0px;
     max-width: 100%;
@@ -38,13 +33,11 @@
     margin-top: 60px;
 
 }
-
-.pride img {
+.pride img , .ingredients img{
     max-width: 100%;
     border-radius: 10px;
 }
-
-.pride h2 {
+.pride h2 , .ingredients h2{
     font-size: 35px;
     font-weight: bold;
     width: 80%;
@@ -53,8 +46,7 @@
     color: #77132b;
     font-family: 'Tajawal';
 }
-
-.pride p {
+.pride p , .ingredients p{
     font-size: 16px;
     line-height: 28px;
     color: #333;
@@ -62,8 +54,7 @@
     margin-top: 15px;
 
 }
-
-.pride button {
+.pride button, .ingredients button {
     background-color: #a82d49;
     border: 1px solid #a82d49;
     box-sizing: border-box;
@@ -74,8 +65,7 @@
     transition: .2s ease;
 
 }
-
-.pride button a {
+.pride button a , .ingredients button a {
     display: block;
     color: #fff;
     font-family: 'Tajawal';
@@ -83,11 +73,19 @@
     text-transform: uppercase;
     font-weight: bold;
 }
-
-.pride button:hover a {
+.pride button:hover a,.ingredients button:hover a {
     color: #77132b;
 }
-
-.pride button:hover {
+.pride button:hover , .ingredients button:hover{
     background-color: #fff;
+}
+/* css to ingredients */
+.ingredients ul{
+    padding: 0px;
+}
+.ingredients ul li{
+    list-style: square;
+    font-family:'Tajawal' ;
+    color: #333;
+    margin-top: 10px;
 }
