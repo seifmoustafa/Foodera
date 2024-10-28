@@ -1,7 +1,6 @@
-import meal1 from './assets/meal1.jpg';
-import meal2 from './assets/meal2.jpg';
-import meal3 from './assets/meal3.jpg';
-
+import meal1 from "./assets/meal1.jpg";
+import meal2 from "./assets/meal2.jpg";
+import meal3 from "./assets/meal3.jpg";
 
 const Data = [
   {

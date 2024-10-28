@@ -61,7 +61,8 @@
   margin-top: 15px;
 }
 .pride button,
-.ingredients button, .blog button {
+.ingredients button,
+.blog button {
   background-color: #a82d49;
   border: 1px solid #a82d49;
   box-sizing: border-box;
@@ -72,7 +73,8 @@
   transition: 0.2s ease;
 }
 .pride button a,
-.ingredients button a,.blog button a {
+.ingredients button a,
+.blog button a {
   display: block;
   color: #fff;
   font-family: "Tajawal";
@@ -81,11 +83,13 @@
   font-weight: bold;
 }
 .pride button:hover a,
-.ingredients button:hover a,.blog button:hover a {
+.ingredients button:hover a,
+.blog button:hover a {
   color: #77132b;
 }
 .pride button:hover,
-.ingredients button:hover,.blog button:hover {
+.ingredients button:hover,
+.blog button:hover {
   background-color: #fff;
 }
 /* css to ingredients */
@@ -171,20 +175,20 @@
   margin: 10px 0px;
   text-transform: uppercase;
 }
-.blog .box h6{
+.blog .box h6 {
   color: #a82d49;
   font-size: 25px;
-  font-family: 'Tajawal';
+  font-family: "Tajawal";
 }
-.blog button{
+.blog button {
   margin-top: 10px;
   margin-bottom: 10px;
-  transition: .3s ease-in-out;
+  transition: 0.3s ease-in-out;
 }
-.blog button a{
+.blog button a {
   display: initial;
   letter-spacing: 1px;
 }
-.blog button:hover{
+.blog button:hover {
   background-color: transparent;
 }

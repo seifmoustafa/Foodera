@@ -10,9 +10,10 @@ const Blog = () => {
           <h5> {item.title}</h5>
           <span>{item.time}</span>
           <h6>{item.price}</h6>
-
         </div>
-        <button><a href="#">Order Now</a></button>
+        <button>
+          <a href="#">Order Now</a>
+        </button>
       </div>
     );
   });
