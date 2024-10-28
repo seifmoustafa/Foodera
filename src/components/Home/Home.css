@@ -27,7 +27,7 @@
     letter-spacing: 1px;
 }
 
-/* css to pride */
+/* css to pride, ingredients & paralex*/
 
 .pride , .ingredients{
     background-color: transparent;
@@ -44,7 +44,7 @@
     border-radius: 10px;
 }
 
-.pride h2 , .ingredients h2{
+.pride h2 , .ingredients h2,.paralex h2{
     font-size: 35px;
     font-weight: bold;
     width: 80%;
@@ -54,7 +54,7 @@
     font-family: 'Tajawal';
 }
 
-.pride p , .ingredients p{
+.pride p , .ingredients p,.paralex p{
     font-size: 16px;
     line-height: 28px;
     color: #333;
@@ -112,4 +112,23 @@
     height: auto;
     padding: 30px 0px;
     text-align: center;
+}
+.paralex row{
+    margin: 50px 0px;
+}
+.paralex h2{
+    width: 100%;
+    margin: 20px 0px;
+}
+.paralex{
+    color: #444;
+    margin: 20px 0px;
+    line-height: 32px;
+}
+.paralex a{
+    color: #77132b;
+    font-size: 20px;
+    margin: 20px 0px;
+    font-family:'Tajawal' ;
+    text-decoration: none !important;
 }
