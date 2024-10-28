@@ -4,36 +4,12 @@ import header from "../../assets/header.png"
 import "./Home.css"
 import home1 from "../../assets/home1.png"
 import Blog from "./Blog";
+import Numbers from "./Numbers";
 const Home = () => {
     return (
         <Fragment>
             <Header />
-            <section class='numbers'>
-                <div class='container'>
-                    <div class='row'>
-                        <div class='col-md-3'>
-                            <h2>1287+</h2>
-                            <h6>SAVING</h6>
-
-                        </div>
-                        <div class='col-md-3'>
-                            <h2>4587+</h2>
-                            <h6>PHOTOS</h6>
-
-                        </div>
-                        <div class='col-md-3'>
-                            <h2>1485+</h2>
-                            <h6>ROCKETS</h6>
-
-                        </div>
-                        <div class='col-md-3'>
-                            <h2>1287+</h2>
-                            <h6>GLOBES</h6>
-
-                        </div>
-                    </div>
-                </div>
-            </section>
+            <Numbers/>
             <section className="pride">
                 <div className="container">
                     <div className="row">
