@@ -1,31 +1,16 @@
 import React, { Fragment } from "react";
 import Header from "./Header";
-import header from "../../assets/header.png"
 import "./Home.css"
 import home1 from "../../assets/home1.png"
 import Blog from "./Blog";
 import Numbers from "./Numbers";
+import Pride from "./Pride";
 const Home = () => {
     return (
         <Fragment>
             <Header />
             <Numbers/>
-            <section className="pride">
-                <div className="container">
-                    <div className="row">
-                        <div className="col-md-6">
-                            <img src={header} title="pride image" />
-
-
-                        </div>
-                        <div className="col-md-6">
-                            <h2>We pride ourselves on making real food from the best ingredients.</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam et purus a odio finibus bibendum in sit amet leo. Mauris feugiat erat tellus.</p>
-                            <button ><a href="#" />learn more</button>
-                        </div>
-                    </div>
-                </div>
-            </section>
+            <Pride />
             <section className="ingredients">
                 <div className="container">
                     <div className="row">
