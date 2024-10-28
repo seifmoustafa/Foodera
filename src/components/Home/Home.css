@@ -1,134 +1,190 @@
 .numbers {
-    background-color: #a82d49;
-    padding: 25px 0px;
-    max-width: 100%;
-    height: auto;
-    text-align: center;
-    overflow: hidden;
+  background-color: #a82d49;
+  padding: 25px 0px;
+  max-width: 100%;
+  height: auto;
+  text-align: center;
+  overflow: hidden;
 }
-
 .numbers .row {
-    margin: 10px 0px;
+  margin: 10px 0px;
 }
-
 .numbers h2 {
-    font-size: 50px;
-    font-weight: bold;
-    margin: 10px 0px;
-    color: #fff;
-    font-family: 'Tajawal';
+  font-size: 50px;
+  font-weight: bold;
+  margin: 10px 0px;
+  color: #fff;
+  font-family: "Tajawal";
 }
-
 .numbers h6 {
-    text-transform: uppercase;
-    color: #fff;
-    font-family: 'Tajawal';
-    font-weight: bold;
-    letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #fff;
+  font-family: "Tajawal";
+  font-weight: bold;
+  letter-spacing: 1px;
 }
-
-/* css to pride, ingredients & paralex*/
-
-.pride , .ingredients{
-    background-color: transparent;
-    padding: 25px 0px;
-    max-width: 100%;
-    height: auto;
-    overflow: hidden;
-    margin-top: 60px;
-
+/* css to pride, ingredients , paralex &blog*/
+.pride,
+.ingredients {
+  background-color: transparent;
+  padding: 25px 0px;
+  max-width: 100%;
+  height: auto;
+  overflow: hidden;
+  margin-top: 60px;
 }
-
-.pride img , .ingredients img{
-    max-width: 100%;
-    border-radius: 10px;
+.pride img,
+.ingredients img {
+  max-width: 100%;
+  border-radius: 10px;
 }
-
-.pride h2 , .ingredients h2,.paralex h2{
-    font-size: 35px;
-    font-weight: bold;
-    width: 80%;
-    line-height: 50px;
-    margin: 10px 0px;
-    color: #77132b;
-    font-family: 'Tajawal';
+.pride h2,
+.ingredients h2,
+.paralex h2,
+.blog h2 {
+  font-size: 35px;
+  font-weight: bold;
+  width: 80%;
+  line-height: 50px;
+  margin: 10px 0px;
+  color: #77132b;
+  font-family: "Tajawal";
 }
-
-.pride p , .ingredients p,.paralex p{
-    font-size: 16px;
-    line-height: 28px;
-    color: #333;
-    font-family: 'Tajawal';
-    margin-top: 15px;
-
+.pride p,
+.ingredients p,
+.paralex p,
+.blog p {
+  font-size: 16px;
+  line-height: 28px;
+  color: #333;
+  font-family: "Tajawal";
+  margin-top: 15px;
 }
-
-.pride button, .ingredients button {
-    background-color: #a82d49;
-    border: 1px solid #a82d49;
-    box-sizing: border-box;
-    width: 140px;
-    height: 40px;
-    text-align: center;
-    margin-top: 20px;
-    transition: .2s ease;
-
+.pride button,
+.ingredients button, .blog button {
+  background-color: #a82d49;
+  border: 1px solid #a82d49;
+  box-sizing: border-box;
+  width: 140px;
+  height: 40px;
+  text-align: center;
+  margin-top: 20px;
+  transition: 0.2s ease;
 }
-
-.pride button a , .ingredients button a {
-    display: block;
-    color: #fff;
-    font-family: 'Tajawal';
-    text-decoration: none !important;
-    text-transform: uppercase;
-    font-weight: bold;
+.pride button a,
+.ingredients button a,.blog button a {
+  display: block;
+  color: #fff;
+  font-family: "Tajawal";
+  text-decoration: none !important;
+  text-transform: uppercase;
+  font-weight: bold;
 }
-
-.pride button:hover a,.ingredients button:hover a {
-    color: #77132b;
+.pride button:hover a,
+.ingredients button:hover a,.blog button:hover a {
+  color: #77132b;
 }
-
-.pride button:hover , .ingredients button:hover{
-    background-color: #fff;
+.pride button:hover,
+.ingredients button:hover,.blog button:hover {
+  background-color: #fff;
 }
 /* css to ingredients */
-
-
-.ingredients ul{
-    padding: 0px;
+.ingredients ul {
+  padding: 0px;
 }
-.ingredients ul li{
-    list-style: square;
-    font-family:'Tajawal' ;
-    color: #333;
-    margin-top: 10px;
+.ingredients ul li {
+  list-style: square;
+  font-family: "Tajawal";
+  color: #333;
+  margin-top: 10px;
 }
 /* css to the paralex section */
+.paralex {
+  background: url("../../assets/header.png");
+  background-size: cover;
+  width: 100%;
+  height: auto;
+  padding: 30px 0px;
+  text-align: center;
+}
+.paralex row {
+  margin: 50px 0px;
+}
+.paralex h2 {
+  width: 100%;
+  margin: 20px 0px;
+}
+.paralex {
+  color: #444;
+  margin: 20px 0px;
+  line-height: 32px;
+}
+.paralex a {
+  color: #77132b;
+  font-size: 20px;
+  margin: 20px 0px;
+  font-family: "Tajawal";
+  text-decoration: none !important;
+}
+/* css for blog */
+.blog {
+  margin-top: 50px;
+  padding: 25px 0px;
+  overflow: hidden;
+  width: 100%;
+  height: auto;
+}
+.blog .row:first-child {
+  text-align: center;
+  margin: 25px 0px;
+}
+.blog h2 {
+  font-size: 45px;
+  width: 100%;
+}
+.blog .box {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  overflow: hidden;
+  border: 1px solid #f6f6f6;
+  box-sizing: border-box;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+.blog img {
+  max-width: 100%;
+}
 
-.paralex{
-    background: url("../../assets/header.png");
-    background-size: cover;
-    width: 100%;
-    height: auto;
-    padding: 30px 0px;
-    text-align: center;
+.blog h5 {
+  color: #77132b;
+  font-family: "Tajawal";
+  font-size: 22px;
+  margin: 15px 0px;
 }
-.paralex row{
-    margin: 50px 0px;
+
+.blog .box span {
+  display: block;
+  color: #444;
+  font-family: "Tajawal";
+  font-size: 16px;
+  margin: 10px 0px;
+  text-transform: uppercase;
 }
-.paralex h2{
-    width: 100%;
-    margin: 20px 0px;
+.blog .box h6{
+  color: #a82d49;
+  font-size: 25px;
+  font-family: 'Tajawal';
 }
-.paralex{
-    color: #444;
-    margin: 20px 0px;
-    line-height: 32px;
+.blog button{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  transition: .3s ease-in-out;
 }
-.paralex a{
-    color: #77132b;
-    font-size: 20px;
-    margin: 20px 0px;
-    font-family:'Tajawal' ;
-    text-decoration: none !important;
+.blog button a{
+  display: initial;
+  letter-spacing: 1px;
+}
+.blog button:hover{
+  background-color: transparent;
 }

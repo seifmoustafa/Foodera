@@ -3,6 +3,7 @@ import Header from "./Header";
 import header from "../../assets/header.png"
 import "./Home.css"
 import home1 from "../../assets/home1.png"
+import Blog from "./Blog";
 const Home = () => {
     return (
         <Fragment>
@@ -89,6 +90,7 @@ const Home = () => {
                     </div>
                 </div>
             </section>
+            <Blog />
         </Fragment>
 
 
