@@ -6,6 +6,7 @@ import Numbers from "./Numbers";
 import Pride from "./Pride";
 import Ingredients from "./Ingrediants";
 import Paralex from "./Paralex";
+import Slider from "./Slider";
 const Home = () => {
   return (
     <Fragment>
@@ -15,6 +16,7 @@ const Home = () => {
       <Ingredients />
       <Paralex />
       <Blog />
+      <Slider/>
     </Fragment>
   );
 };
